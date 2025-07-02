@@ -1,0 +1,14 @@
+h1 {
+    color: hsl(0, 0%, 100%);
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif
+}
+h2 {
+    color: rgb(123, 206, 64);
+}
+h3 {
+    color: #aa4949;
+}
+h4 {
+    color: rgb(133, 99, 255);
+}

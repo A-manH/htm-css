@@ -1,0 +1,9 @@
+div + p {
+    color: crimson
+}
+a[href="one"] {
+    color: orange;
+}
+img[alt="nature"] {
+    color: blue;
+}

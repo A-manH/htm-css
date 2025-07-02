@@ -1,0 +1,18 @@
+* {
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+}
+.par {
+    color: teal;
+}
+.one {
+    color: rgb(12, 158, 73);
+}
+.two {
+    font-size: 25px;
+}
+
+#text {
+    color: pink;
+}

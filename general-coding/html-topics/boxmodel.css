@@ -1,0 +1,10 @@
+* {
+}
+body {
+    border: 5px solid purple;
+    border-style: ridge;
+    text-align: center;
+    padding: 12px 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
