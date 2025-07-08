@@ -42,8 +42,8 @@ button {
     border-color: rgb(90, 90, 90);
     border-radius: var(--border-radius);
 
-    padding: 0.3em .5em;
-    word-spacing: 2px;
+    padding: .3em 0.5em;
+    /* word-spacing: 2px; */
 }
 
 .button.icon {width: 20px;}
@@ -145,12 +145,18 @@ button {
 }
 
 .details-members {
-    margin: 0px;
-    padding: 0;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* background-color: red; */
+    justify-content: space-between;
+    background-color: red;
+}
+
+.details-members .icons {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .details-course-info {
