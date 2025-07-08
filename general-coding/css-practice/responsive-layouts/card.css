@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, rgb(149, 92, 214), rgb(168, 243, 255));
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --border-radius: 6px;
+    --gray: #6e6e6e;
+    --dark-gray: #575757;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    font-weight: 100;
+    margin: 0;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    color: var(--gray);
+}
+
+button {
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    background: linear-gradient(rgb(39,39,39), rgb(82, 82, 82));
+    color: rgb(207, 207, 207);
+
+    border-style: outset;
+    border-width: 1px;
+    border-color: rgb(90, 90, 90);
+    border-radius: var(--border-radius);
+
+    padding: 0.3em .5em;
+    word-spacing: 2px;
+}
+
+.button.icon {width: 20px;}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.card-details {
+    background-color: rgb(255, 255, 255);
+    padding:  1.1em;
+    padding-top: 0;
+    max-width: 300px;
+    border-radius: var(--border-radius);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.card-image {
+    height: 175px;
+    max-width: 400px;
+    display: flex;
+    align-items: end;
+
+    background-color: #ffffff;
+    background-image: url("static/card-bg.png");
+    background-size: 105%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 20%;
+}
+
+.image.icon {
+    display: flex;
+    filter: invert();
+    margin: .5em;
+}
+
+.card-image .icon {
+    width: 30px;
+    margin-right: .5em;
+}
+
+
+.card-details {
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--border-radius);
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+    /* padding: 1.5em; */
+}
+
+.details-tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+.details-tags li {
+    list-style-type: none;
+    margin-right: .5em;
+    background: linear-gradient(#9efff23a, white);
+    border-style: outset;
+    border-radius: 15px;
+    border-width: 1.5px;
+    border-color: #32dfab;
+    color: #22c594;
+    padding: .2em .6em;
+    font-size: 13.5px;
+}
+
+.details-info .header {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .price {
+    font-weight: 100;
+    color: var(--dark-gray);
+}
+
+.profile {
+    width: 10%;
+    border-radius: 100%;
+    margin: 0;
+}
+
+.details-members {
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.details-course-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.details-course-info h3 {
+    font-weight: 100;
+    color: var(--gray);
+}
+
+
+.details-course-info p {
+    margin: 0px;
+    margin-top: .3em;
+    color: var(--dark-gray);
+    font-weight: 600;
+}
